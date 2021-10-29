@@ -1,5 +1,5 @@
 # Flood-Monitoring
-- Project Title: Voronoi-based flood area detection using multi-agent systems.
+- Voronoi-based flood area detection using multi-agent systems.
 - This is a repository for a Robot Operating System (ROS) project.
 
 ## Abstract
