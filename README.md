@@ -9,4 +9,4 @@ An algorithm was made to support detection of connected and disconnected segment
 The _flood_monitor_ folder we have uploaded to this repository is a folder located inside the _catkin_ws_ folder of the ROS environment. To download the whole folder, find the green **Code** button near the top of the page and click on it. A pop-up menu will appear showing an option to **Download ZIP**. A _flood_monitor.zip_ file will be downloaded to your computer. The zip file will contain all the files and folders listed in this repository under the _flood_monitor_ folder. 
 
 ### Note
-- README.md files are Github readme files that are required by the platform.
+- README.md files are Github readme files that are required by Github. You can ignore this files when the project folder is copied to _catkin_ws_ folder.
