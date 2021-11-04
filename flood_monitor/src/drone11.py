@@ -24,6 +24,7 @@ targets = []
 
 config = configparser.ConfigParser()
 config.read('config.ini')
+CAM_SIZE = int(config['camera_window']['size'])
 
 class Follower:
     def __init__(self):
@@ -48,6 +49,7 @@ class Follower:
         # Image segmentation, to differentiate which is water and land.        
         image = self.bridge.imgmsg_to_cv2(msg,desired_encoding='bgr8') #bgr8
         image = image[:, 30:image.shape[1]-30, :]
+        image = cv2.resize(image, (CAM_SIZE,CAM_SIZE)) #Drone camera view
         hsv = cv2.cvtColor(image, cv2.COLOR_BGR2HSV)  
         lower_flood = np.array([85, 40, 215]) # np.array([100, 100, 0]) #yellow #np.array([0, 100, 100]) # blue np.array([90, 115, 186]) 85, 40, 215
         upper_flood = np.array([100,60,235]) # np.array([255, 255, 120]) #yellow #np.array([100, 255, 255]) # blue  np.array([110,240,255])  100,60,255
