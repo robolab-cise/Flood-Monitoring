@@ -1,0 +1,175 @@
+material 80/flood
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture 80.png
+      }
+    }
+  }
+}
+material 81/flood
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture 81.png
+      }
+    }
+  }
+}
+material 82/flood
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture 82.png
+      }
+    }
+  }
+}
+material 83/flood
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture 83.png
+      }
+    }
+  }
+}
+material 84/flood
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture 84.png
+      }
+    }
+  }
+}
+material 85/flood
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture 85.png
+      }
+    }
+  }
+}
+material 90/flood
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture 90.png
+      }
+    }
+  }
+}
+
+material base/flood
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture base.png
+      }
+    }
+  }
+}
+
+material base/flood2
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture flood2.png
+      }
+    }
+  }
+}
+
+material base/flood3
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture flood3.png
+      }
+    }
+  }
+}
+
+material base/flood4
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture flood4.png
+      }
+    }
+  }
+}
+
+material base/flood3vary
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture flood3_varying_size.png
+      }
+    }
+  }
+}
+
+material blues/flood
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture blues.png
+      }
+    }
+  }
+}
