@@ -5,7 +5,7 @@
   <arg name="gui" default="true"/><arg name="headless" default="false"/>
   <arg name="debug" default="true"/>
   <include file="$(find hector_gazebo_worlds)/launch/start.launch">
-    <arg name="world" value="$(find hector_gazebo_worlds)/worlds/trial_new.world"/>
+    <arg name="world" value="$(find flood_monitor)/worlds/trial_new.world"/>
   </include>
  
   <include file="$(find timed_roslaunch)/launch/timed_roslaunch.launch">
